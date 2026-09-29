@@ -1,0 +1,35 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Local Environment Variables & Secrets (CRITICAL: Do NOT commit!)
+.env
+.env.local
+
+# Local SQLite Database (Auto-generated on startup)
+app/data/*.db
+app/data/*.db-wal
+app/data/*.db-shm
+
+# Server Logs
+app/logs/*.log
+*.log
+
+# Uploaded User Media (Keep folder structure with .gitkeep)
+app/static/uploads/*
+!app/static/uploads/.gitkeep
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
